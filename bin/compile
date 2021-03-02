@@ -79,7 +79,7 @@ case "$STACK" in
       libxtst6	
       fonts-liberation	
     "	
-    ;	
+    ;;
   *)	
     error "Heroku stack must be 'cedar-14','heroku-18', or 'heroku-20'"	
 esac
